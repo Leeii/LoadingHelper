@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="status_layout_icon" type="id" />
+    <item name="status_layout_message" type="id" />
+    <item name="status_layout_retry_text" type="id" />
+</resources>
