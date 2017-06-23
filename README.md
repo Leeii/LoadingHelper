@@ -29,3 +29,9 @@
  - ` 1. 在初始化的时候传入Config : new Config.Builder().build()`
  - ` 2. 使用自定义布局  mLoadingHelper.putCustomViewByStatus(Status status, View view)`
 
+##### 4.替换模式
+
+ ###### 目前有两种模式
+ 
+ - `Mode.REPLACE` 是替换模式
+ - `Mode.COVER` 是覆盖模式
