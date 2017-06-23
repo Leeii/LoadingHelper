@@ -12,11 +12,11 @@
 
 ### 用法
 
-**** 1.获取对象 ****
+##### 1.获取对象  
 `
   LoadingHelper mLoadingHelper = LoadingHelper.with(view);
 `
-**** 2.切换对应布局 ****
+##### 2.切换对应布局
 `
   mLoadingHelper.showOrigin()   //原布局
   mLoadingHelper.showLoading()  //加载中布局
@@ -24,7 +24,7 @@
   mLoadingHelper.showError()    //数据加载失败
   mLoadingHelper.showNoNetwork()//无网络布局
 `
-**** 3.相关配置 ****
+##### 3.相关配置
 `
   1. 在初始化的时候传入Config : new Config.Builder().build()
   2. 使用自定义布局  mLoadingHelper.putCustomViewByStatus(Status status, View view)
