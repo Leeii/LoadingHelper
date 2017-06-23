@@ -6,8 +6,6 @@ import android.view.ViewGroup;
 
 import com.leeiidesu.loading.java.change.SwitchLayoutHelper;
 
-import pl.droidsonroids.gif.GifImageView;
-
 /**
  * Created by leeiides on 2017/6/23.
  */

@@ -3,9 +3,7 @@ package com.leeiidesu.loading.java;
 import android.view.View;
 
 import com.leeiidesu.loading.java.change.Mode;
-import com.leeiidesu.loading.java.change.SwitchLayoutHelper;
 import com.leeiidesu.loading.java.change.impl.SwitchLayoutHelperFactory;
-import com.leeiidesu.loading.java.impl.LoadingHelperImpl;
 
 /**
  * Created by leeiides on 2017/6/23.

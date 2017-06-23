@@ -7,8 +7,6 @@ import android.widget.FrameLayout;
 
 import com.leeiidesu.loading.java.change.SwitchLayoutHelper;
 
-import java.security.acl.Group;
-
 /**
  * Created by leeiides on 2017/6/23.
  */
@@ -79,7 +77,7 @@ class CoverSwitchLayoutHelper implements SwitchLayoutHelper {
 
     @NonNull
     @Override
-    public  View getCurrentStatusView() {
+    public View getCurrentStatusView() {
         return mCurrentView;
     }
 }

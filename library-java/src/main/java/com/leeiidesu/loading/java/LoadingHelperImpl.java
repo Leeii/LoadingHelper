@@ -1,4 +1,4 @@
-package com.leeiidesu.loading.java.impl;
+package com.leeiidesu.loading.java;
 
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
@@ -6,9 +6,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.leeiidesu.loading.java.Config;
-import com.leeiidesu.loading.java.LoadingHelper;
-import com.leeiidesu.loading.java.R;
 import com.leeiidesu.loading.java.change.SwitchLayoutHelper;
 
 import java.util.HashMap;
@@ -29,7 +26,7 @@ public class LoadingHelperImpl extends LoadingHelper {
     private OnRetryClickListener mOnRetryClickListener;
 
 
-    public LoadingHelperImpl(View originView, Config config, SwitchLayoutHelper switchLayoutHelper) {
+    LoadingHelperImpl(View originView, Config config, SwitchLayoutHelper switchLayoutHelper) {
         this.originView = originView;
         this.config = config;
         this.mSwitchLayoutHelper = switchLayoutHelper;

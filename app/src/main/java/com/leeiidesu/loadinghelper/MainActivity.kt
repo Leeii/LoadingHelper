@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when (v!!.id) {
-            R.id.button -> mLoadingHelper!!.showOrigin()
+            R.id.button ->  mLoadingHelper!!.showOrigin()
             R.id.button2 -> mLoadingHelper!!.showLoading()
             R.id.button3 -> mLoadingHelper!!.showEmpty()
             R.id.button4 -> mLoadingHelper!!.showError()
